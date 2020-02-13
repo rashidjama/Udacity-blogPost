@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Blog post homepage!</title>
+  <link rel="stylesheet" href="CSS/main.css">
+</head>
+
+<body>
+  <!--NAVBAR-->
+  <nav>
+    <ul class="navbar">
+      <li class="list_items" id="home"><a href="#subs_form">Subscribe</a></li>
+      <li class="list_items bpost"><a href="HTML/blogpost.html">Blog Posts</a></li>
+    </ul>
+  </nav>
+  <!--MAIN CONTENT-->
+  <main class="content">
+    <blockquote cite="rashid.com">
+      <p class="content_text">
+        This blog is for begginer web developers. If you wanna recieve weekly lessons, Please subscribe
+      </p>
+    </blockquote>
+    <div class="subscribe_btn"> <a href="#subs_form">Subscribe</a></div>
+  </main>
+  <!--MAIN PAGE CARDS-->
+  <div class="cards">
+    <section class="card card3">
+      <img src="./images/internet.png" alt="internet logo" class="card_title">
+      <p class="card_text">The Internet is the backbone of the Web, the technical infrastructure that makes the Web
+        possible. At its most basic. <a href="./HTML/blogpost.html">Learn More!</a></p>
+    </section>
+    <section class="card card1"><img src="./images/html5.png" alt="html5 logo" class="card_title">
+      <p class="card_text">HTML5 is the latest evolution of the standard that defines HTML. The term represents two
+        different concepts. <br><a href="./HTML/blogpost.html">Learn More!</a></p>
+    </section>
+    <section class="card card2"><img src="./images/css3.png" alt="css3 logo" class="card_title">
+      <p class="card_text">CSS3 is the latest evolution of the Cascading Style Sheets language and aims at extending
+        CSS2.1. <br><a href="./HTML/blogpost.html">Learn More!</a></p>
+    </section>
+    <section class="card card4"><img src="./images/js-logo.webp" alt="JavaScript logo" class="card_title">
+      <p class="card_text">JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language.
+        <a href="./HTML/blogpost.html">Learn More!</a></p>
+    </section>
+  </div>
+  <!--SUBSCRIPTION FORUM-->
+  <p id="subs_form"> To get notifications from this blog, please subscribe.</p>
+  <form action="" class="form">
+    <input type="email" name="sub" id="email" placeholder="Your Email!" required>
+    <button id="submit" type="submit">Submit</button>
+  </form>
+  <!--FOOTER-->
+  <footer class="footer">Copywrite, Rashid Jama 2020 <br><br>
+    <a href="#home"> Back to top</a></div>
+  </footer>
+</body>
+
+</html>

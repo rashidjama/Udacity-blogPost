@@ -1,0 +1,65 @@
+/* ALL IMPORTED CSS */
+@import url(navbar.css);
+@import url(footer.css);
+@import url(author.css);
+@import url(socialmedia.css);
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  scroll-behavior: smooth;
+  background: rgba(153, 153, 153, 0.1);
+}
+
+/*new and old blog posts*/
+.container {
+  background: #fff;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 5rem;
+  padding: 1rem;
+  letter-spacing: 2px;
+  line-height: 1.5rem;
+  margin: 1rem;
+}
+
+.older_posts h2 {
+  text-decoration: underline;
+  font-style: italic;
+  color: blue;
+}
+
+.older_posts {
+  background: rgba(153, 153, 153, 0.1);
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+#pre_post {
+  background: #fff;
+  padding: 1rem;
+  letter-spacing: 2px;
+  line-height: 1.5rem;
+  margin: 1rem;
+}
+
+@media(min-width: 768px) {
+  .container {
+    background: #fff;
+    display: grid;
+    grid-template-columns: auto 20%;
+    grid-gap: 5rem;
+    padding: 3rem;
+  }
+
+  #pre_post {
+    background: #fff;
+    padding: 3rem;
+    letter-spacing: 2px;
+    line-height: 1.5rem;
+    margin: 1rem;
+  }
+}

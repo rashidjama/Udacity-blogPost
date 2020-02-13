@@ -1,0 +1,25 @@
+.navbar {
+  width: 100vw;
+  display: flex;
+  list-style: none;
+  background: #5e8fce;
+  padding: 1.5rem;
+  margin-top: 0;
+}
+
+.list_items a {
+  text-decoration: none;
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+#home {
+  border: 1px solid #fff;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+}
+
+.bpost {
+  padding: 0.3rem;
+}

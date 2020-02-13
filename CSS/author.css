@@ -1,0 +1,40 @@
+.author {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 100%;
+  padding: 0.5rem;
+  grid-column-gap: 1rem;
+}
+
+.avator {
+  width: 100%;
+  height: auto;
+}
+
+.author_bio {
+  font-size: 1.4rem;
+  line-height: 30px;
+}
+
+.author_info {
+  font-size: 1.4rem;
+  line-height: 30px;
+  font-style: italic;
+}
+
+.author figcaption {
+  font-weight: bold;
+}
+
+/* THIS BLOCK OF CODE WILL RUN 786PX AND ABOVE SIZES*/
+@media(min-width: 768px) {
+  .author {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-gap: 1rem;
+    padding: 1rem;
+  }
+}
